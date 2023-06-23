@@ -14,7 +14,7 @@ from logdeep.tools.utils import *
 # Config Parameters
 
 options = dict()
-options['data_dir'] = '../data/'
+options['data_dir'] = '../../data/'
 options['window_size'] = 10
 options['device'] = "cpu"
 
