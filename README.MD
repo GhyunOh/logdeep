@@ -50,7 +50,7 @@ python Drain_benchmark.py
 ```
 
 **Fourth**, You need to convert structured log to sequence or semantic data, you can check example [here](logdeep/data/hdfs/hdfs_test_normal). sequence or semantic data is converted based on [this](logdeep/data/hdfs/event2semantic_vec.json) file. You need to separate into two file, one is for normal case, and the other is for abnormal case.
-**I am strugling with this section, I am looking for a method that creates a "event2semantic_vec.json" like file to convert structured log to sequence or semantic data.**
+**I am struggling with this section, I am looking for a method that creates a "event2semantic_vec.json" like file to convert structured log to sequence or semantic data.**
 
 
 **Fifth**, Train, predict, and evaluate the semantic data using with deeplog model(s).  
